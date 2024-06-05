@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(restaurant.gif);
+    transition:-webkit-radial-gradient();
+}
+
+.head{
+    text-align: center;
+    font-size: large;
+    color: whitesmoke;
+    font-weight: bold;
+    
+}
+#title{
+    border: 10pt solid;
+    border-spacing: 5pt;
+    border-color: antiquewhite;
+    background-color: black;
+  
+}
+
+#recipes{
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    padding: auto;
+    text-align: center;
+    font-size: large;
+}
+
+li a{
+  text-decoration: none;
+  color: inherit;
+  text-align: inherit;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+.ingredients{
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    padding: auto;
+    text-align: center;
+    font-size: large;
+   
+}
+.steps{
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    padding: auto;
+    text-align: center;
+    font-size: large;
+}
+
+.centered-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-position: center;
+    height: 150px;
+    width: 300px;
+}
